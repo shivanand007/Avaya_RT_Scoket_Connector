@@ -4,7 +4,8 @@
 This application fetches data from the CMS TCP connector on the configured ports and dumps it into an SQL database. It provides functionality for automated table creation during the first-time installation. Please ensure that the database is created before deploying the application.
 
 ## Features
-- Fetches data from the CMS TCP connector on the configured ports
+- Service runs as windows executable file (.exe)
+- Fetches realtime data from the CMS server on the configured ports
 - Supports a maximum of two ports for data retrieval
 - Dumps the fetched data into an SQL database configured in the config file
 - Automatically creates tables in the database if they are not present during the first-time installation
