@@ -7,6 +7,10 @@ config = get_configuration()
 
 
 def insert_into_db(object_dict, query_payload,logger_instance):
+    # Initialize cursor to None
+    cursor = None
+    connection = None
+
     try:
         # Connect to the SQL Server database using pypyodbc
         connection_string = f"Driver={{SQL Server}};Server={config.host};Database={config.database};UID={config.username};PWD={config.password};"

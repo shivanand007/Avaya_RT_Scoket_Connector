@@ -4,8 +4,10 @@ import os
 
 class Configuration:
     def __init__(self):
-        #config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.ini")
-        config_path = "C:\Workspace\cms_tcp_lisner\config\config.ini"
+        config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.ini")
+        print(config_path)
+        config_path = config_path
+
         self.config = configparser.ConfigParser()
         self.config.read(config_path)
 

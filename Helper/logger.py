@@ -26,12 +26,12 @@ class Logger:
         today = date.today().strftime('%Y-%m-%d')
 
         # Set the log file paths
-        csplit_log_file = os.path.join(csplit_folder, f'{today}.log')
-        cvdn_log_file = os.path.join(cvdn_folder, f'{today}.log')
+        self.csplit_log_file = os.path.join(csplit_folder, f'{today}.log')
+        self.cvdn_log_file = os.path.join(cvdn_folder, f'{today}.log')
 
-        # Set the log file paths in the configuration
+        """# Set the log file paths in the configuration
         config.csplit_log_file = csplit_log_file
-        config.cvdn_log_file = cvdn_log_file
+        config.cvdn_log_file = cvdn_log_file"""
 
     def csplit_logger(self):
         # Create a logger for csplit
@@ -39,7 +39,7 @@ class Logger:
         csplit_logger.setLevel(logging.DEBUG)
 
         # Create a handler for csplit.log
-        csplit_handler = logging.FileHandler(config.csplit_log_file)
+        csplit_handler = logging.FileHandler(self.csplit_log_file)
         csplit_handler.setLevel(logging.DEBUG)
         csplit_handler.setFormatter(self.formatter)
 
@@ -54,7 +54,7 @@ class Logger:
         cvdn_logger.setLevel(logging.DEBUG)
 
         # Create a handler for cvdn.log
-        cvdn_handler = logging.FileHandler(config.cvdn_log_file)
+        cvdn_handler = logging.FileHandler(self.cvdn_log_file)
         cvdn_handler.setLevel(logging.DEBUG)
         cvdn_handler.setFormatter(self.formatter)
 
