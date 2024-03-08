@@ -1,7 +1,7 @@
 # Realtime Lisner v1.1
 
 ## Overview
-This application fetches data from the CMS TCP connector on the configured ports and dumps it into an SQL database. It provides functionality for automated table creation during the first-time installation. Please ensure that the database is created before deploying the application.
+This application is designed to extract raw contact center data from TCP connectors on specified ports, converting it into relational mappings, and storing it in an SQL database. The stored data serves as a foundation for comprehensive contact center analysis. Utilizing interactive dashboards and insightful reporting, this project enables users to gain valuable insights from the collected data, empowering informed decision-making and optimizing contact center operations.
 
 ## Features
 - Service runs as windows executable file (.exe)
