@@ -1,7 +1,8 @@
-# Realtime Lisner v1.1
+# CMS Realtime Lisner v1.1
 
 ## Overview
 This application is designed to extract raw contact center data from TCP connectors on specified ports, converting it into relational mappings, and storing it in an SQL database. The stored data serves as a foundation for comprehensive contact center analysis. Utilizing interactive dashboards and insightful reporting, this project enables users to gain valuable insights from the collected data, empowering informed decision-making and optimizing contact center operations.
+CMS is avaya solution for Reporting, which emits raw data for further analaysis.
 
 ## Features
 - Service runs as windows executable file (.exe)
