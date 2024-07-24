@@ -38,4 +38,4 @@ Make sure to update the configuration file with the necessary settings before ru
 This application is designed and developed by Future Technology. The author of this application is Shivanand.
 
 ## Support and Feedback
-For any issues or feedback, please reach out to [smasne@alyousuf.com].
+For any issues or feedback, please reach out to [shivanandmasne1998@gmail.com].
