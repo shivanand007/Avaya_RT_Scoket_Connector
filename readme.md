@@ -35,7 +35,7 @@ Make sure to update the configuration file with the necessary settings before ru
 4. If tables do not exist in the database, they will be automatically created during the first-time installation.
 
 ## About
-This application is designed and developed by Future Technology. The author of this application is Shivanand.
+This application is designed and developed for Future Technology. The author of this application is Shivanand.
 
 ## Support and Feedback
 For any issues or feedback, please reach out to [shivanandmasne1998@gmail.com].
